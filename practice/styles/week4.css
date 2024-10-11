@@ -1,0 +1,42 @@
+body{
+    font-size: 1.5;
+}
+
+main{
+    background-color: lightblue;
+    margin: 0 auto;
+    text-align: center;
+}
+
+img{
+    width: 50%
+}
+
+#green{
+    background-color: lightgreen;
+}
+
+/* CTRL + '/' */
+/* .pink{
+    color: hotpink;
+} */
+
+p{
+    color: hotpink;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+footer p{
+    color: black;
+}
+
+a:hover{
+    background-color: chartreuse;
+    color: lavender;
+}
+
+nav{
+    text-align: center;
+}
