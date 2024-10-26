@@ -1,0 +1,14 @@
+body {
+    background-color: gray;
+}
+
+p img {
+    width: 20%;
+    border-radius: 150px;
+    border: 10px darkgray solid;
+    margin: 30px;
+}
+
+p {
+    text-align: center;
+}
