@@ -142,9 +142,9 @@ footer {
     padding: 5px;
 }
 
-main .home-grid {
-    grid: display;
-    grid-template-columns: repeat(10, 1fr)
+.home-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
 }
 
 h4 {
