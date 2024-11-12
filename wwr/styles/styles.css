@@ -12,6 +12,45 @@
     grid-row: 4/9;
 }
 
+.p2-box {
+    display: block;
+    text-align: center;
+}
+
+.p2-img {
+    width: 80%;
+    padding: 50px;
+}
+
+.p2-content {
+    justify-self: center;
+    width: 60%;
+}
+
+.p2-para {
+    text-align: center;
+    border: 1px solid black;
+    margin: 0 auto;
+    width: 55%;
+    padding: 20px;
+    margin-bottom: 80px;
+}
+
+.p2-hero-box {
+    text-align: center;
+    width: 100%;
+    justify-self: center;
+}
+
+.p2-hero {
+    width: 100%;
+}
+
+.p2-heading {
+    color: white;
+    margin-top: -200px;
+}
+
 div {
     max-width: 1600px;
 }

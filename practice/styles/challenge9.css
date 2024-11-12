@@ -1,0 +1,38 @@
+
+.blog-post {
+    border-radius: 20px;
+    margin: 0 auto;
+    max-width: 400px;
+    justify-items: center;
+    overflow: hidden;
+    border: 1px solid black;
+}
+
+img {
+    width: 400px;
+}
+
+.big-text {
+    font-size: 1.25em;
+}
+
+.blog-stats {
+    width: 400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color:rgb(63, 91, 139);
+    color: white;
+}
+
+.blog1 {
+    justify-items: center;
+}
+
+.blog2 {
+    border: solid 1px gray;
+    justify-items: center;
+}
+
+.blog3 {
+    justify-items: center;
+}
