@@ -1,0 +1,22 @@
+
+ul {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    list-style-type: none;
+    border: solid black 1px;
+    align-items: center;
+}
+
+.logo_img {
+    width: 60px;
+}
+
+nav {
+    display: flex;
+    text-align: center;
+}
+
+img {
+    width: 200px;
+}
