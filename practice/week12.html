@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 12 Component Activity</title>
+    <link rel="stylesheet" href="styles/week12.css">
+</head>
+
+<body>
+    <h1>Magic The Gathering: Colors</h1>
+    <button class="accordion">White</button>
+    <div class="panel">
+        <p>
+            White: Unity and Board Control
+            In a Commander game, white thrives on cooperation and board presence. Its strengths lie in support and
+            control,
+            often enabling allies through cards like Teferi’s Protection or Smothering Tithe. White decks frequently
+            employ
+            strategies involving lifegain, token generation, and board wipes to maintain balance. Cards like Austere
+            Command
+            allow white to handle various threats, making it a stabilizing force at the table. White's ability to
+            protect its
+            assets and allies often leads to its role as a peacekeeper. However, white can struggle with card draw and
+            ramp in a
+            multiplayer setting, making synergy with other colors or creative deck-building crucial for long-term
+            success.
+        </p>
+    </div>
+
+    <button class="accordion">Blue</button>
+    <div class="panel">
+        <p>
+            Blue: Knowledge and Political Leverage
+            Blue dominates in Commander by shaping the game's pace through counterspells, card draw, and manipulation.
+            Cards
+            like Mystic Remora or Rhystic Study can generate immense value over time, pressuring opponents to play
+            suboptimally.
+            Blue's penchant for instant-speed interaction makes it a formidable opponent, capable of halting game-ending
+            combos
+            or disrupting critical plays. Beyond control, blue excels in political plays, leveraging information and
+            influence
+            to turn players against one another. Commanders like Talrand, Sky Summoner or Azami, Lady of Scrolls amplify
+            these
+            strengths, but blue often relies on careful timing and alliances to avoid becoming an early target.
+        </p>
+    </div>
+
+    <button class="accordion">Black</button>
+    <div class="panel">
+        <p>
+            Black: Greed and Ruthless Ambition
+            Black shines in Commander with its ability to exploit resources, often at any cost. Cards like Phyrexian
+            Arena or
+            Damnation showcase its willingness to sacrifice life or creatures for power. Black's themes of recursion and
+            graveyard synergy provide it with unparalleled resilience, allowing it to reanimate threats or maintain
+            pressure
+            even after setbacks. In multiplayer settings, black often acts as a wildcard, using politics to turn
+            opponents
+            against each other while quietly building an overwhelming advantage. Commanders like K’rrik, Son of Yawgmoth
+            or
+            Muldrotha, the Gravetide thrive in environments where long-term planning and resource management are key.
+        </p>
+    </div>
+
+    <button class="accordion">Red</button>
+    <div class="panel">
+        <p>
+            Red: Chaos and Explosive Power
+            In Commander, red is the color of high risk and high reward, bringing aggression and unpredictability to the
+            table.
+            Its fast-paced strategies often rely on direct damage, creature combat, and powerful, fleeting effects.
+            Cards like
+            Dockside Extortionist can swing games by generating massive mana advantage, while spells like Blasphemous
+            Act
+            deliver devastating board wipes. Red’s impulsive nature makes it well-suited for chaos strategies, often
+            forcing
+            opponents to make difficult decisions. Commanders like Purphoros, God of the Forge or Krenko, Mob Boss
+            embody red's
+            potential to end games quickly, but red's reliance on fast, explosive plays can leave it vulnerable in
+            drawn-out
+            matches.
+        </p>
+    </div>
+
+    <button class="accordion">Green</button>
+    <div class="panel">
+        <p>
+            Green: Growth and Overwhelming Strength
+            Green’s dominance in Commander lies in its ability to generate massive mana, play large creatures, and
+            destroy
+            artifacts or enchantments with ease. Cards like Cultivate, Beast Within, and Craterhoof Behemoth exemplify
+            green's
+            ability to ramp, interact, and end games explosively. Green thrives on developing a strong board presence,
+            often
+            leveraging synergies with lands and creatures. Commanders like Selvala, Heart of the Wilds or Golos,
+            Tireless
+            Pilgrim demonstrate green's aptitude for ramping into devastating threats or overwhelming opponents through
+            sheer
+            force. While its focus on creatures and lands is powerful, green can sometimes struggle against strategies
+            that
+            circumvent combat or exploit its reliance on the battlefield.
+        </p>
+    </div>
+
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function () {
+                /* Toggle between adding and removing the "active" class,
+                to highlight the button that controls the panel */
+                this.classList.toggle("active");
+
+                /* Toggle between hiding and showing the active panel */
+                var panel = this.nextElementSibling;
+                if (panel.style.display === "block") {
+                    panel.style.display = "none";
+                } else {
+                    panel.style.display = "block";
+                }
+            });
+        }
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.maxHeight) {
+                    panel.style.maxHeight = null;
+                } else {
+                    panel.style.maxHeight = panel.scrollHeight + "px";
+                }
+            });
+        }
+    </script>
+
+</body>
+
+</html>
