@@ -67,3 +67,8 @@ h1 {
     padding: 0px;
 
 }
+
+h1, p {
+    width: 50%;
+    justify-self: center;
+}
