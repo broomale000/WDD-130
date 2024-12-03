@@ -1,11 +1,30 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Orbitron:wght@400..900&display=swap');
+
+:root {
+    --heading-font: 'Orbitron';
+    --paragraph-font: 'Calibri', Helvetica, sans-serif;
+}
+
 ul {
     display: grid;
     width: 100%;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     list-style-type: none;
-    border: solid black 1px;
+    border: solid black 2px;
     align-items: center;
+    background-color: #F2651A;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    background-color: #396E94;
+    padding: 10px;
 }
 
 nav {
@@ -16,6 +35,15 @@ nav {
 
 img {
     width: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+p {
+    margin-bottom: 100px;
+    border: solid #396E94 1px;
+    padding: 20px;
+    font-family: var(--paragraph-font);
 }
 
 main {
@@ -24,7 +52,11 @@ main {
 }
 
 h1 {
-    padding-top: 100px;
+    text-align: center;
+    border: black 2px solid;
+    padding: 15px;
+    color: #F2651A;
+    font-family: var(--heading-font);
 }
 
 .logo_img {
@@ -32,5 +64,6 @@ h1 {
     border: solid black 1px;
     margin: 0 auto;
     display: block;
+    padding: 0px;
 
 }
