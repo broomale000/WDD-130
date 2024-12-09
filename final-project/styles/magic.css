@@ -38,7 +38,6 @@ nav {
 img {
     width: 200px;
     display: block;
-    margin: 0 auto;
 }
 
 p {
@@ -72,5 +71,37 @@ h1 {
 
 h1, p {
     width: 50%;
+    justify-self: center;
+}
+
+.cardgrid {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    width: 80%;
+    margin-left: 192px;
+   
+}
+
+.cardgrid-item1 {
+    align-self: center;
+    justify-self: center;
+
+}
+
+.cardgrid-item2 {
+    text-align: center;
+
+}
+
+.cardgrid-item2 p {
+    margin: 0px;
+    width: 400px;
+}
+
+.cardgrid-item1 img {
+    width: 275px;
+}
+
+.centerimg {
     justify-self: center;
 }
