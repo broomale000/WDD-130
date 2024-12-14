@@ -60,14 +60,22 @@ h1 {
     font-family: var(--heading-font);
 }
 
-.logo_img {
+.logo_img_header {
     width: 60px;
     border: solid black 1px;
     margin: 0 auto;
     display: block;
     padding: 0px;
-
 }
+
+.logo_img_footer {
+    width: 60px;
+    border: solid black 1px;
+    margin: 0 auto;
+    display: block;
+    padding: 0px;
+}
+
 
 h1, p {
     width: 50%;

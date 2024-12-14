@@ -12,6 +12,12 @@ nav {
     height: 100px;
 }
 
+footer {
+    display: flex;
+    text-align: center;
+    height: 100px;
+}
+
 nav a {
         color: black;
         text-decoration: none;
@@ -19,7 +25,7 @@ nav a {
         padding: 10px;  
 }
 
-a:hover {
+header li a:hover {
     color: white;
     background-color: #396E94;
     padding: 10px;
@@ -35,22 +41,41 @@ nav ul {
     background-color: #F2651A;
 }
 
-.logo_img {
+footer {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    list-style-type: none;
+    border: solid black 2px;
+    align-items: center;
+    background-color: #F2651A;
+}
+
+.logo_img_header {
     width: 60px;
     border: solid black 1px;
     margin: 0 auto;
     display: block;
     padding: 0px;
-
 }
 
-.main1 img{
+.logo_img_footer {
+    width: 60px;
+    border: solid black 1px;
+    margin: 0 auto;
+    display: block;
+    padding: 0px;
+    text-justify: right;
+    grid-row: 3/4;
+}
+
+.main1 img, .main3 img{
     width: 200px;
     display: block;
     padding: 40px;
 }
 
-.main1 h1, .main2 h1 {
+.main1 h1, .main2 h1, .main3 h1 {
         text-align: center;
         border: black 3px solid;
         color: #F2651A;
@@ -60,7 +85,7 @@ nav ul {
         padding: 20px;
 }
 
-.main1, .main2{
+.main1, .main2, .main3{
     width: 80%;
     margin: 0 auto;
 }
@@ -99,12 +124,13 @@ nav ul {
 .card_container p {
     padding: 0;
     margin-left: 10px;
-    border: solid black 1px;
+    border: solid #396E94 2px;
     padding: 10px;
 }
 
 .main2 h1 {
     margin-bottom: 50px;
+    border: solid #396E94 2px;
 }
 
 .page_desc {
@@ -115,4 +141,8 @@ nav ul {
     margin-top: 50px;
     width: 50%;
     text-align: center;
+}
+
+footer li img {
+    border: solid black 1px;
 }
