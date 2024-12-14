@@ -65,6 +65,7 @@ footer {
     margin: 0 auto;
     display: block;
     padding: 0px;
+    text-justify: right;
     grid-row: 3/4;
 }
 
@@ -108,7 +109,7 @@ footer {
 }
 
 .main1 p, .main3 p{
-    border: solid #396E94 1px;
+    border: solid black 1px;
     padding: 20px;
     width: 70%;
     margin: 0 auto;
@@ -159,10 +160,9 @@ footer li img {
 #hero-image {
     width: 100%;
     margin: 0;
-    padding-top: 18px;
-    padding-bottom: 30px;
+    padding: 0;
 }
 
-ul {
+header {
     height: 100%;
 }
